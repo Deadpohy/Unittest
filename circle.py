@@ -27,7 +27,7 @@ class CircleAreaTestCases(unittest.TestCase):
   def test_circle_int_first(self):
     self.assertEqual(area(1235), math.pi * 1235 * 1235)
   def test_circle_int_second(self):
-    self.assertEqual(area(55), math.pi * 575 * 575)
+    self.assertEqual(area(575), math.pi * 575 * 575)
   def test_circle_string_first(self):
     with self.assertRaises(TypeError):
       area("32")
